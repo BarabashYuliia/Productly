@@ -6,10 +6,18 @@ body {
 .container {
   max-width: 1260px;
   margin: 0 auto;
+}
+
+.content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 70px;
+}
+
+div ul {
+  list-style: none;
+  padding: 0;
 }
 
 nav ul {
@@ -28,6 +36,10 @@ nav a {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+}
+
+div a {
+  text-decoration: none;
 }
 
 nav li {
@@ -57,6 +69,8 @@ nav {
 .heading-h2 {
   font-size: 36px;
   line-height: 43.88px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .heading-h3 {
@@ -64,6 +78,12 @@ nav {
   font-weight: 600;
   padding: 30px 0px 16px 0px;
   margin: 0;
+}
+
+.heading-h4 {
+  Size: 16px;
+  margin: 0;
+  padding: 30px 0 10px 0
 }
 
 .text-center {
@@ -92,10 +112,9 @@ nav {
   margin-top: 20px;
 }
 
-.left {
+.text-part {
   width: 500px;
   height: 301px;
-  top: 97px;
 }
 
 .blocks {
@@ -112,3 +131,38 @@ div p {
   background-image: url("../Images/bg.png");
   background-size: cover;
 }
+
+.footer {
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 70px 0px 0px;
+  border-top: 1px solid #BCD0E5;
+}
+
+.contact {
+  width: 340px;
+}
+
+.sector2 {
+  width: 525px;
+}
+
+.space {
+  margin-top: 70px;
+}
+.sector3 {
+  width: 505px;
+}
+
+.sector4 {
+  width: 486px;
+}
+
+.c1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
+
